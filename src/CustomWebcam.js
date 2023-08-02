@@ -1,6 +1,6 @@
 import React from "react";
 import Webcam from "react-webcam";
-//import { useRef } from "react"; 
+import { useRef } from "react"; 
 import useStyles from "./CustomWebcamStyles"; // Import the styles from the separate file
 
 
