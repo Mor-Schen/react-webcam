@@ -1,5 +1,6 @@
+import React from "react";
 import Webcam from "react-webcam";
-import { useRef } from "react"; // import useRef
+import { useRef } from "react"; 
 
 
 const CustomWebcam = () => {
@@ -7,10 +8,9 @@ const CustomWebcam = () => {
 
     return (
         <div className="container">
-        <Webcam height={600} width={600} />
+            <Webcam height={600} width={600} />
         </div>
     );
 };
 
 export default CustomWebcam;
-
