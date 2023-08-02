@@ -1,18 +1,14 @@
 import React from "react";
 import Webcam from "react-webcam";
-import { useRef } from "react"; 
-import useStyles from "./CustomWebcamStyles"; // Import the styles from the separate file
+import { useRef } from "react"; // import useRef
 
 
 const CustomWebcam = () => {
     const webcamRef = useRef(null); // create a webcam reference
-    const classes = useStyles();
 
     return (
-        <div className={classes.container}>
-            <div className={classes.webcam}>
+        <div className="container">
                 <Webcam height={600} width={600} />
-            </div>
         </div>
     );
 };
