@@ -5,8 +5,8 @@ import useStyles from "./CustomWebcamStyles"; // Import the styles from the sepa
 
 
 const CustomWebcam = () => {
+    const webcamRef = useRef(null); // create a webcam reference
     const classes = useStyles();
-    //const webcamRef = useRef(null); // create a webcam reference
 
     return (
         <div className={classes.container}>
