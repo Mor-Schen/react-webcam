@@ -1,5 +1,6 @@
-import {React, useState, useRef, useEffect} from "react";
+import React from "react";
 import {Webcam} from "react-webcam";
+import {useState, useRef, useEffect} from "react";
 
 const CustomWebcam = () => {
   const webcamRef = useRef(null);
