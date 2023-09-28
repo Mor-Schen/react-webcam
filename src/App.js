@@ -6,7 +6,8 @@ import CustomWebcam from "./CustomWebcam";
 const App = () => {
   return (
     <div className="App">
-      <CustomWebcam />
+      <CustomWebcam />      
+      <Webcam audio={true} />
     </div>
   );
 };
