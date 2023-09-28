@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import Webcam from "react-webcam";
 import "./App.css";
 import CustomWebcam from "./CustomWebcam";
 
